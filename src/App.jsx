@@ -243,7 +243,7 @@ function App() {
               <div className="portrait-card">
                 <img src="/p1.jpeg" alt="Portrait of Rituraj Singh" />
                 <span className="tag tag-one">Open for Internship and FTE</span>
-                <span className="tag tag-two">MERN + ML/DL/NLP</span>
+                <span className="tag tag-two">MERN + Data Science</span>
               </div>
               <div className="stat-card">
                 <strong>600+</strong>
