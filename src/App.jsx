@@ -345,7 +345,7 @@ function App() {
                   <p className="date">2023 - 2027 (Expected)</p>
                   <h4>National Institute of Technology Jamshedpur</h4>
                   <p>B.Tech in Electronics and Communication Engineering</p>
-                  <p className="highlight">CGPA: 8.16</p>
+                  <p className="highlight">CGPA: 7.34</p>
                 </div>
                 <div className="timeline-item">
                   <p className="date">2021 - 2023</p>
