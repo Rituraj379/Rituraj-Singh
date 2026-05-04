@@ -115,6 +115,8 @@ const externalLinkProps = {
 };
 
 function App() {
+  const resumeHref = `${import.meta.env.BASE_URL}RiturajSingh_Resume.pdf`;
+
   useEffect(() => {
     const updateActiveNav = () => {
       const navLinks = [...document.querySelectorAll(".nav a")];
@@ -199,7 +201,7 @@ function App() {
               </p>
 
               <div className="hero-actions">
-                <a className="btn btn-pink" href="/RiturajSingh_Resume(F).pdf" download>
+                <a className="btn btn-pink" href={resumeHref} download="RiturajSingh_Resume.pdf">
                   Download Resume
                 </a>
                 <a className="btn btn-soft" href="#portfolio">
